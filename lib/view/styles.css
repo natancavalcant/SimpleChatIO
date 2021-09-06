@@ -1,0 +1,85 @@
+body{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;  
+}
+h1#title{
+ text-align: center;
+  color: #4CAF50;
+}
+
+textarea#message{
+  padding: 5px;
+  width: 300PX;
+  height: 100px;
+  border-radius: 10pt;
+  border-style: solid;
+  border-color: green;
+  resize: none;
+  max-lines: 3;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input#username{
+  padding-left: 5px;
+  width: 300PX;
+  height: 20px;
+  border-width: 1px;
+  border-radius: 10pt;
+  border-style: solid;
+  border-color: green;
+}
+div#content{
+  align-items: flex-start;
+}
+div.chat::-webkit-scrollbar{
+  display: none;
+}
+div.chat{
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 450px;
+  border-radius: 10pt;
+  border-color:#4CAF50;
+  border-width: 1px;
+  border-style: solid;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+label{
+  font-weight: 350;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content:space-around;
+}
+
+button#send_button{
+  width: 300px;
+  height: 50px;
+  align-self: center;
+  background-color: #4CAF50;
+  border-color: green;
+  border-radius: 10pt;
+  border-style: solid;
+  color: white;
+  font-weight: 550;
+  font-size: 14pt;
+}
